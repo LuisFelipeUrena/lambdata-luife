@@ -1,2 +1,6 @@
 # lambdata-luife
-practice repo
+Practice repo
+## Installation
+todo
+## Usage
+todo
