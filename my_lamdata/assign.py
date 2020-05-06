@@ -1,6 +1,6 @@
 # helper function: checking for nan values
 
-import pandas 
+import pandas
 
 
 def null_val(x):
@@ -10,7 +10,7 @@ def null_val(x):
 
     Args:
         x;A Pandas dataframe object
-    
+
     Returns:
             Null value counts for each column
 
@@ -19,7 +19,7 @@ def null_val(x):
 
 
     """
-    
+
     x = x.copy()
     nulls = pandas.Series(x.isnull().sum())
     print('Null Values in each Column')
@@ -27,12 +27,13 @@ def null_val(x):
     print(nulls)
     print('---------------------------')
 
+
 def cat_variables(x):
     """
-    Checks for categorical variables in 
+    Checks for categorical variables in
     any given DF
 
-    args: 
+    args:
         x; Pandas Dataframe Object
     returns
         list of all categorical data
@@ -42,10 +43,9 @@ def cat_variables(x):
 
     """
     x = x.copy()
-    result = x.astype('object').describe()  
-    return result 
+    result = x.astype('object').describe()
+    return result
 
     if __name__ == "__main__":
-        
+
         print('if you imported this function, you did,something wrong')
-    

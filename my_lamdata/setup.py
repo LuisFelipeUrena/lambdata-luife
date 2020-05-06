@@ -12,7 +12,7 @@ setup(
     author_email="luis-felipe-urena-hernandez@lambdastudents.com",
     description="Functions made for 05/4/2020 assignment",
     long_description=long_description,
-    #long_description_content_type="text/markdown", # required if using a md file for long desc
+    long_description_content_type="text/markdown", # required if using a md file for long desc
     license="MIT",
     url="https://github.com/LuisFelipeUrena/lambdata-luife",
     #keywords="",
